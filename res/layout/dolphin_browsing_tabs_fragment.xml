@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Layout file is the old design which use the support4 package to do it, only for backforwad coverage, it will be depressed someday. 2014-4-2 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category9"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+  <LinearLayout
+        android:id="@+id/category90"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@drawable/titlebar_background"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp" >
+
+            <ImageButton
+                android:id="@+id/imagebutton_back"
+                android:layout_width="@dimen/toolbar_image_wight"
+                android:layout_height="@dimen/toolbar_image_height"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/toolbar_back_button"
+                android:contentDescription="@string/desc" >
+            </ImageButton>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textview_titleshow"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/button_browsing"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:typeface="sans" >
+        </TextView>
+    </LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_below="@id/category90">
+ 
+    <fragment
+		class="Dolphin.src.Fragments.TabsFragment"
+		android:id="@+id/tabs_fragment"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+ 
+    
+</LinearLayout>
+</RelativeLayout>

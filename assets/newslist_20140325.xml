@@ -1,0 +1,59 @@
+<?xml version="1.0"?>  
+<!-- This XML data file is only a dummy one which can by replaced by the real internect data in the future. 2014-3-26-->
+<feed xmlns="http://www.chinacoal.com" xmlns:georss="http://www.chinacoal.com">  
+  <updated>2014-03-25T04:41:18Z</updated>  
+  <title>USGS M2.5+ News List</title>  
+  <subtitle>Real-time, the news list for Dolphin project.</subtitle>  
+  <link rel="self" href="http://earthquake.usgs.gov/earthquakes/catalogs/1day-M2.5.xml" mce_href="http://earthquake.usgs.gov/earthquakes/catalogs/1day-M2.5.xml"/>  
+  <link href="http://earthquake.usgs.gov/earthquakes/" mce_href="http://earthquake.usgs.gov/earthquakes/"/>  
+  <author><name>Kevin</name></author>  
+  <id>DolphinList</id>  
+  <icon>/favicon.ico</icon>  
+  <entry>  
+      <id>2014032501</id>  
+      <title>Ronaldo should stop complaining</title>  
+      <updated>2014-03-25T04:14:03Z</updated>  
+	  <image>newsdemo1</image> 
+      <brief>Gerard Pique has hit back at Cristiano Ronaldo in the wake of the Real Madrid attacker's claims that the referee favored Barcelona in the Catalans' 4-3 La Liga win on Sunday.</brief>  
+      <content>Gerard Pique has hit back at Cristiano Ronaldo in the wake of the Real Madrid attacker's claims that the referee favored Barcelona in the Catalans' 4-3 La Liga win on Sunday.
+Referee Undiano Mallenco played a leading role in the enthralling encounter at the Santiago Bernabeu as he awarded three penalties over the course of the game - two to Barcelona and one to Madrid - and sent off Sergio Ramos, prompting Ronaldo to accuse the official of bias toward the Catalans. 
+However, Pique has stressed that Ronaldo should not be looking for excuses given that the Portugal star was awarded a controversial penalty after being tripped by Dani Alves outside the box.</content>  
+      <category label="Age" term="Past hour"/>  
+  </entry>  
+     <entry>  
+      <id>2014032502</id>  
+      <title>New demo</title>  
+      <updated>2014-03-24T04:14:03Z</updated>  
+	  <image>newsdemo2</image> 
+      <brief>Inside Kim Kardashian and Kanye West's Private Time with Baby North</brief>  
+      <content>In return, she and Kanye West gave the fashion magazine an up-close-and-personal look into their life at home with their daughter, North.</content>  
+      <category label="Age" term="Past hour"/>  
+  </entry> 
+       <entry>  
+      <id>2014032503</id>  
+      <title>Hit the Jackpot</title>  
+      <updated>2014-03-23T04:14:03Z</updated>  
+	  <image>newsdemo3</image> 
+      <brief>Hit the Jackpot in Your Search for a New Car</brief>  
+      <content>Give Yahoo! Autos a spin - for the web's best news, reviews, and research on hundreds of new makes and models.Don't smoke? Doesn't matter. You could still be doing damage to your long-term health.The following six unhealthy habits either expose you to the same contaminants in cigarette smoke or lead to cancer rates equivalent to those caused </content>  
+      <category label="Age" term="Past hour"/>  
+  </entry> 
+  <entry>  
+      <id>2014032504</id>  
+      <title>Judge Joe Brown Arrested</title>  
+      <updated>2014-03-22T04:14:03Z</updated>  
+	  <image>newsdemo4</image> 
+      <brief>Judge Joe Brown Arrested and Jailed in Tennessee For Contempt of Court</brief>  
+      <content>Judge Joe Brown was arrested and jailed in Memphis, Tenn., on Monday, March 24 -- find out what happened!How much cash do you have hidden around your home? If the answer is more than $100, then you have too much cash in your house. We all keep a little money on hand for those rare occasions</content>  
+      <category label="Age" term="Past hour"/>  
+  </entry> 
+    <entry>  
+      <id>2014032503</id>  
+      <title>Is This the Most Glamorous Post-Birth Photo — EVER?!</title>  
+      <updated>2014-03-21T04:14:03Z</updated>  
+	  <image>newsdemo5</image> 
+      <brief>But look above at heiress Tamara Ecclestone - daughter of billionaire and Formula</brief>  
+      <content>But look above at heiress Tamara Ecclestone - daughter of billionaire and Formula One Management CEO Bernie Ecclestone - who gave birth to her daughter Sophia at the London's private Portland Hospital (a favorite among celebs) a couple of days </content>  
+      <category label="Age" term="Past hour"/>  
+  </entry> 
+</feed>

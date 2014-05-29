@@ -1,0 +1,8 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+	android:minHeight="170dip"  android:minWidth="292dip"
+	android:updatePeriodMillis="3800000" android:initialLayout="@layout/main">
+</appwidget-provider>
+<!-- android:minHeight  高 -->
+<!-- android:minWidth  宽 -->
+<!-- android:updatePeriodMillis  更新页面的时间 -->
+<!-- android:initialLayout  初始化页面的布局 -->

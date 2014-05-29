@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="100dip"
+			android:layout_height="wrap_content" android:text="NAME:" android:layout_marginLeft="10dip"/>
+		<EditText android:id="@+id/login_name" android:layout_width="150dip"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="100dip"
+			android:layout_height="wrap_content" android:text="PASSWORD:" android:layout_marginLeft="10dip"/>
+		<EditText android:id="@+id/login_password"
+			android:layout_width="150dip" android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:gravity="center_horizontal" >
+		<Button android:id="@+id/add_ok" android:layout_width="90dip"
+			android:layout_height="wrap_content" android:text="LOGIN"
+			android:layout_gravity="center_horizontal" android:layout_marginLeft="10dip" />
+		<Button android:id="@+id/add_cancel" android:layout_width="90dip"
+			android:layout_height="wrap_content" android:text="CANCEL"
+			android:layout_gravity="center_horizontal" />
+	</LinearLayout>
+</LinearLayout>

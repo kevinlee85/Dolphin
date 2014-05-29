@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category6"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ivory" >
+
+    <LinearLayout
+        android:id="@+id/category61"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/titlebar_background"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp" >
+
+            <ImageButton
+                android:id="@+id/imagebutton_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/toolbar_back_button"
+                android:contentDescription="@string/desc" >
+            </ImageButton>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textview_titleshow"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/specific_title"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:typeface="monospace" >
+        </TextView>
+    </LinearLayout>
+
+    <Dolphin.src.Util.GalleryFlow
+        android:id="@+id/mygallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category61"
+        android:layout_centerInParent="true" >
+    </Dolphin.src.Util.GalleryFlow>
+
+    <Gallery
+        android:id="@+id/gallery_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mygallery"
+        android:layout_centerInParent="true" >
+    </Gallery>
+
+</RelativeLayout>

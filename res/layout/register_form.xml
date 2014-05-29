@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="fill_parent"
+	android:gravity="center_vertical" android:stretchColumns="4" android:scrollbars="vertical" android:scrollbarAlwaysDrawVerticalTrack="true">
+	<TableRow android:layout_height="wrap_content">
+		<View android:layout_height="60px" android:layout_width="5px"
+			android:gravity="left" android:background="#FFFFFFFF" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="60px" android:text="USER NAME:"
+			android:id="@+id/rf_tv_username"></TextView>
+		<View android:layout_height="60px" android:layout_width="5px"
+			android:background="#FFFFFFFF" android:gravity="left" />
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="60px" android:text="USERNAME"
+			android:id="@+id/edittext_username_register" android:singleLine="true"></EditText>
+	</TableRow>
+	<View android:layout_height="2dip" android:background="#FFFFFFFF" />
+	<TableRow>
+		<View android:layout_height="60px" android:layout_width="5px"
+			android:background="#FFFFFFFF" android:gravity="left" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="60px" android:text="PASSWORD:"
+			android:id="@+id/rf_tv_password" ></TextView>
+		<View android:layout_height="60px" android:layout_width="5px"
+			android:background="#FFFFFFFF" android:gravity="left" />
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="60px" android:text="PASSWORD"
+			android:id="@+id/edittext_password_register"
+			></EditText>
+	</TableRow>
+	<View android:layout_height="2dip" android:background="#FFFFFFFF" />
+	<TableRow>
+		<View android:layout_height="60px" android:layout_width="5px"
+			android:background="#FFFFFFFF" android:gravity="left" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="60px" android:text="REPASSWORD:"
+			android:id="@+id/rf_tv_repassword" android:layout_below="@id/rf_tv_username"></TextView>
+		<View android:layout_height="60px" android:layout_width="5px"
+			android:background="#FFFFFFFF" android:gravity="left" />
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="60px" android:text="REPASSWORD"
+			android:id="@+id/edittext_repassword_register" ></EditText>
+	</TableRow>
+	<View android:layout_height="2dip" android:background="#FFFFFFFF" />
+	<TableRow>
+		<View android:layout_height="60px" android:layout_width="5px"
+			android:background="#FFFFFFFF" android:gravity="left" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="EMAIL:"
+			android:id="@+id/rf_tv_email" ></TextView>
+		<View android:layout_height="60px" android:layout_width="5px"
+			android:background="#FFFFFFFF" android:gravity="left" />
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="60px" android:text="EMAIL"
+			android:id="@+id/edittext_email_register" ></EditText>
+	</TableRow>
+	<View android:layout_height="2dip" android:background="#FFFFFFFF" />
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:gravity="center_horizontal">
+		<Button android:id="@+id/button_back" android:layout_width="100px"
+			android:layout_height="wrap_content" android:gravity="center"
+			android:clickable="true" android:text="Back"></Button>
+	</LinearLayout>
+</TableLayout> 

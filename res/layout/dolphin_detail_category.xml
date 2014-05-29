@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category7"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:id="@+id/titlelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/titlebar_background"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/toolbar_button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/toolbar_back_button"
+            android:contentDescription="@string/desc" >
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="@string/specific_title"
+            android:textColor="@color/widgetFontColor"
+            android:textSize="18sp" 
+            android:typeface="sans">
+        </TextView>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/titlelayout"
+        android:gravity="center_vertical"
+        android:stretchColumns="5" >
+
+        <TableRow>
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="150dp"
+                android:background="#FFFFFFFF"
+                android:gravity="left" />
+
+            <ImageButton
+                android:id="@+id/detailimagebutton1_1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/mlb201010yj013de1"
+                android:contentDescription="@string/desc"
+                android:gravity="center" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="150dp"
+                android:background="#FFFFFFFF"
+                android:gravity="left" />
+
+            <ImageButton
+                android:id="@+id/detailimagebutton1_2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/mlb201010yj013de2"
+                android:contentDescription="@string/desc"
+                android:gravity="center" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="150dp"
+                android:background="#FFFFFFFF"
+                android:gravity="left" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow>
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="150dp"
+                android:background="#FFFFFFFF"
+                android:gravity="left" />
+
+            <ImageButton
+                android:id="@+id/detailimagebutton2_1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/mlb201010yj013de3"
+                android:contentDescription="@string/desc"
+                android:gravity="left" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="150dp"
+                android:background="#FFFFFFFF"
+                android:gravity="left" />
+
+            <ImageButton
+                android:id="@+id/detailimagebutton2_2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/mlb201010yj013de4"
+                android:contentDescription="@string/desc"
+                android:gravity="center" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="150dp"
+                android:background="#FFFFFFFF"
+                android:gravity="left" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_buy"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/button_buy" >
+            </Button>
+        </LinearLayout>
+    </TableLayout>
+
+</RelativeLayout>

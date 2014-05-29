@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="hello">Hello World, Dolphin!</string>
+    <string name="app_name">Dolphin</string>
+<string name="HelpTitle">Dolphin Project by kevin</string>
+<string name="search">请输入搜索关键字</string>
+<string name="HelpContent">This application is about the cap online mobile shop with mlb brand.And copyright is owned by kevin lee. If any question plz feel free contact with leechongzhi@gmail.com. Thanks.</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="toolbar_title">GalleryMLB</string>
+<string name="desc">description of ImageButton</string>
+<string name="onescreen_title">ONE SCREEN MLB</string>
+<string name="specific_title">Specific</string>
+<string name="news_title">News Title Not Set</string>
+<string name="temp_news_title">Title React According to Current Layout</string>
+<string name="temp_date">2014_3_26</string>
+<string name="button_category">Category</string>
+<string name="button_others">Others</string>
+<string name="button_browsing">Browsing</string>
+<string name="button_mlb">MLB</string>
+<string name="button_buy">BUY</string>
+<string name="textview_content_temp">100$ This cap is disigned for the boy.</string>
+<string name="textview_description_temp">100$ This cap is disigned for the boy.New Arrivlling</string>
+
+<string name="textview_express">Express:</string>
+<string name="textview_color">Color:</string>
+<string name="textview_price">Price:</string>
+<string name="textview_size">Size:</string>
+<string name="button_detail_introduction">DetailIntroduction</string>
+<string name="button_save">SAVE</string>
+
+<string name="tab_words">Words</string>
+<string name="tab_numbers">Numbers</string>
+</resources>

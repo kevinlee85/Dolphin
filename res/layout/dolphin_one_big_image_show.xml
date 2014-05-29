@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category8"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fafafa" >
+
+    <LinearLayout
+        android:id="@+id/titlelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/titlebar_background"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/toolbar_button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/toolbar_back_button"
+            android:contentDescription="@string/desc" >
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/specific_title"
+            android:textColor="@color/widgetFontColor"
+            android:textSize="18sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlelayout"
+        android:layout_margin="5dp"
+        android:orientation="vertical" 
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/detail_specific_iv"
+            android:layout_width="300dp"
+            android:layout_height= "300dp"
+            android:background="@drawable/mlb201010yj013de1"
+            android:contentDescription="@string/desc" />
+
+        <Button
+            android:id="@+id/button_buy"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/button_buy" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

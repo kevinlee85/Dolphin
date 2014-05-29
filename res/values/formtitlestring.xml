@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="id">ID:</string>
+<string name="name">NAME:</string>
+<string name="capid">CAPID:</string>
+<string name="count">COUNT:</string>
+<string name="color">COLOR:</string>
+<string name="location">LOCATION:</string>
+<string name="post">POST:</string>
+<string name="phone">PHONE:</string>
+<string name="title">BUY LIST</string>
+</resources>

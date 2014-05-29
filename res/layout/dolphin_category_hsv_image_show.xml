@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category9"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/category90"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/titlebar_background"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp" >
+
+            <ImageButton
+                android:id="@+id/imagebutton_back"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/toolbar_back_button"
+                android:contentDescription="@string/desc" >
+            </ImageButton>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textview_titleshow"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/specific_title"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:typeface="sans" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category91"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category90"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/snow"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageSwitcher
+            android:id="@+id/ImageSwitcher01"
+            android:layout_width="260dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:background="@color/snow" >
+        </ImageSwitcher>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category91"
+        android:layout_gravity="center"
+        android:scrollbars="none" >
+
+        <!-- Since Gallery has been depressed, i add this customed LinearLayout with horizontalScollView to deal it with same. -->
+
+        <Dolphin.src.Util.HorizontalScrollViewLinearLayout
+            android:id="@+id/hsv_linearlayout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#ffffff" />
+    </HorizontalScrollView>
+
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/snow"
+        android:gravity="center_vertical"
+        android:spacing="16dp" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is very important, we need to set the style, otherwise it cannot be shown the second tab. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/tab_height"
+    android:gravity="center"
+    android:padding="@dimen/tab_padding"
+    android:background="@drawable/tab_selector"
+    android:orientation="vertical" >
+   <TextView android:id = "@+id/text"
+       android:layout_width="wrap_content"
+       android:layout_height = "wrap_content"
+       android:textColor="@color/gold"
+       android:textStyle="bold">       
+   </TextView>
+</LinearLayout>

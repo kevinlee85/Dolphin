@@ -1,0 +1,47 @@
+<?xml version="1.0"?>  
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss">  
+  <updated>2010-09-15T04:41:18Z</updated>  
+  <title>USGS M2.5+ Earthquakes</title>  
+  <subtitle>Real-time, worldwide earthquake list for the past day</subtitle>  
+  <link rel="self" href="http://earthquake.usgs.gov/earthquakes/catalogs/1day-M2.5.xml" mce_href="http://earthquake.usgs.gov/earthquakes/catalogs/1day-M2.5.xml"/>  
+  <link href="http://earthquake.usgs.gov/earthquakes/" mce_href="http://earthquake.usgs.gov/earthquakes/"/>  
+  <author><name>U.S. Geological Survey</name></author>  
+  <id>http://earthquake.usgs.gov/</id>  
+  <icon>/favicon.ico</icon>  
+  <entry>  
+      <id>urn:earthquake-usgs-gov:ak:10078833</id>  
+      <title>M 2.9, Southern Alaska</title>  
+      <updated>2010-09-15T04:14:03Z</updated>  
+      <link rel="alternate" type="text/html" href="http://earthquake.usgs.gov/earthquakes/recenteqsww/Quakes/ak10078833.php" mce_href="http://earthquake.usgs.gov/earthquakes/recenteqsww/Quakes/ak10078833.php"/>  
+      <summary type="html">  
+        <!--[CDATA[<img src="http://earthquake.usgs.gov/images/globes/60_-155.jpg" mce_src="http://earthquake.usgs.gov/images/globes/60_-155.jpg" alt="59.909°N 153.124°W" align="left" hspace="20" /><p>Wednesday, September 15, 2010 04:14:03 UTC<br>Tuesday, September 14, 2010 08:14:03 PM at epicenter</p><p><strong>Depth</strong>: 98.90 km (61.45 mi)</p>]]-->  
+      </summary>  
+      <georss:point>59.9094 -153.1241</georss:point>  
+      <georss:elev>-98900</georss:elev>  
+      <category label="Age" term="Past hour"/>  
+  </entry>  
+   <entry>  
+     <id>urn:earthquake-usgs-gov:ak:10078833</id>  
+      <title>M 2.1, Southern Alaskadd</title>  
+      <updated>2010-09-15T04:14:03Z</updated>  
+      <link rel="alternate" type="text/html" href="http://earthquake.usgs.gov/earthquakes/recenteqsww/Quakes/ak10078833.php" mce_href="http://earthquake.usgs.gov/earthquakes/recenteqsww/Quakes/ak10078833.php"/>  
+      <summary type="html">  
+        <!--[CDATA[<img src="http://earthquake.usgs.gov/images/globes/60_-155.jpg" mce_src="http://earthquake.usgs.gov/images/globes/60_-155.jpg" alt="59.909°N 153.124°W" align="left" hspace="20" /><p>Wednesday, September 15, 2010 04:14:03 UTC<br>Tuesday, September 14, 2010 08:14:03 PM at epicenter</p><p><strong>Depth</strong>: 98.90 km (61.45 mi)</p>]]-->  
+      </summary>  
+      <georss:point>59.9094 -153.1241</georss:point>  
+      <georss:elev>-98900</georss:elev>  
+      <category label="Age" term="Past hour"/>   
+  </entry>  
+   <entry>  
+     <id>urn:earthquake-usgs-gov:ak:10078833</id>  
+      <title>M 2.2, Southern Alaska</title>  
+      <updated>2010-09-15T04:14:03Z</updated>  
+      <link rel="alternate" type="text/html" href="http://earthquake.usgs.gov/earthquakes/recenteqsww/Quakes/ak10078833.php" mce_href="http://earthquake.usgs.gov/earthquakes/recenteqsww/Quakes/ak10078833.php"/>  
+      <summary type="html">  
+        <!--[CDATA[<img src="http://earthquake.usgs.gov/images/globes/60_-155.jpg" mce_src="http://earthquake.usgs.gov/images/globes/60_-155.jpg" alt="59.909°N 153.124°W" align="left" hspace="20" /><p>Wednesday, September 15, 2010 04:14:03 UTC<br>Tuesday, September 14, 2010 08:14:03 PM at epicenter</p><p><strong>Depth</strong>: 98.90 km (61.45 mi)</p>]]-->  
+      </summary>  
+      <georss:point>59.9094 -153.1241</georss:point>  
+      <georss:elev>-98900</georss:elev>  
+      <category label="Age" term="Past hour"/>  
+  </entry>  
+</feed>  

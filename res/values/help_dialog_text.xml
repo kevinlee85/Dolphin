@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="help_dialog_text">  
+    <i>Author: kevin.lee</i>  
+    \n   
+    <i>  
+        <a href="http://www.mlb-koreashop.com/">http://www.mlb-koreashop.com/m</a>  
+    </i>  
+    \n   
+    \n   
+    <i>Dolphin - MLB CAP</i>  
+    \n   
+    This application is cap online mobile caps shopping mall which can give you the newest and vintage information about MLB Brand cap.   
+    \n   
+    \n   
+    <b>Feature</b>  
+    \n   
+    1) Show caps.  
+    \n   
+    2) Buy it by mobilephone.   
+    \n   
+    3) Check the hip news about MLB.  
+</string>  
+
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:id="@+id/titlelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mlb_title"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    <!-- focusable and focusableInTouchMode are used to deactive the focus of EditText -->
+
+    <RelativeLayout
+        android:id="@+id/category011"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlelayout"
+        android:layout_margin="5dp"
+        android:background="#ffffffff"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <ImageButton
+            android:id="@+id/button_search"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/search"
+            android:contentDescription="@string/desc" >
+        </ImageButton>
+
+        <EditText
+            android:id="@+id/edittext_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/button_search"
+            android:inputType="text"
+            android:maxLength="15"
+            android:text="@string/search"
+            android:textSize="20sp" 
+            android:background="@color/ivory">        </EditText>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/category012"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category011"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/category0120"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           	android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/imagebuttonmlb"
+                android:layout_width="92dp"
+                android:layout_height="60dp"
+                android:background="@drawable/logo"
+                android:contentDescription="@string/desc" />
+
+            <Button
+                android:id="@+id/buttonmlb"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_background"
+                android:text="@string/button_mlb" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/category0121"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/imagebuttonothers"
+                android:layout_width="92dp"
+                android:layout_height="60dp"
+                android:background="@drawable/others"
+                android:contentDescription="@string/desc" />
+
+            <Button
+                android:id="@+id/butttonothers"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_background"
+                android:text="@string/button_others" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/category0122"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/imagebuttoncategory"
+                android:layout_width="92dp"
+                android:layout_height="60dp"
+                android:background="@drawable/category"
+                android:contentDescription="@string/desc" />
+
+            <Button
+                android:id="@+id/buttoncategory"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_background"
+                android:text="@string/button_category" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/category0123"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/buttonbrowsing"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_background"
+                android:text="@string/button_browsing" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/category013"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/lightskyblue"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/buttonhome"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/home" 
+            android:contentDescription="@string/desc">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/buttonlogin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/login"
+            android:contentDescription="@string/desc">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/buttonhelp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/help"
+            android:contentDescription="@string/desc">
+        </ImageButton>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:background="#fafafa">
+	<ImageButton android:id="@+id/imagebutton_listview"
+		android:layout_width="120px" android:layout_height="120px" />
+	<LinearLayout 
+		android:orientation="vertical" android:layout_width="120px"
+		android:layout_height="120px">
+		<TextView android:id="@+id/text_listview"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="content"  android:paddingLeft="20dip" android:textSize="16sp" android:maxLength="30"
+			android:textColor="@color/black" />
+		<TextView android:id="@+id/text_listview2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="content" 
+			android:layout_marginTop="10dip" android:paddingLeft="20dip"
+			android:textColor="@color/widgetFontColor" />
+	</LinearLayout>
+</LinearLayout>
